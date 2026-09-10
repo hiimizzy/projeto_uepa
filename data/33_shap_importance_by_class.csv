@@ -1,0 +1,17 @@
+﻿feature,classe,mean_abs_shap
+D4_demanda_municipal,Alta,0.04975775551037265
+n_ies_presenciais,Alta,0.07187475954208082
+n_cursos_concorrentes,Alta,0.08125750300073958
+vagas_regulares,Alta,0.044542133590255446
+D4_demanda_municipal,Baixa,0.0006546688525447711
+n_ies_presenciais,Baixa,0.01426590910423512
+n_cursos_concorrentes,Baixa,0.012862983605712718
+vagas_regulares,Baixa,0.00987120195665974
+D4_demanda_municipal,Muito Alta,0.04513315439992869
+n_ies_presenciais,Muito Alta,0.06824510385039732
+n_cursos_concorrentes,Muito Alta,0.03417786791272953
+vagas_regulares,Muito Alta,0.020738586663489343
+D4_demanda_municipal,Média,0.011133810558740187
+n_ies_presenciais,Média,0.04010971488279405
+n_cursos_concorrentes,Média,0.048141059932628065
+vagas_regulares,Média,0.04862215834683071
