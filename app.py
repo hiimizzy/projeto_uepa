@@ -60,7 +60,7 @@ data = load_data()
 
 # Verificar se os dados principais foram carregados
 if data['matriz'] is None:
-    st.error("❌ Arquivo 55_matriz_final_auditada.csv não encontrado!")
+    st.error("Arquivo 55_matriz_final_auditada.csv não encontrado!")
     st.stop()
 
 df = data['matriz']
@@ -108,8 +108,8 @@ st.sidebar.markdown("---")
 # Seleção de página
 pagina = st.sidebar.radio(
     "Navegação",
-    ["📊 Painel Geral", "📍 Análise por Município", "📚 Análise por Curso", 
-     "🏗️ Implantação", "📈 Expansão", "🔍 Explicabilidade", "🧪 Simulador"]
+    ["Painel Geral", "Análise por Município", "Análise por Curso", 
+     " Implantação", "Expansão", "Explicabilidade", "Simulador"]
 )
 
 st.sidebar.markdown("---")
@@ -194,7 +194,7 @@ if pagina == "📊 Painel Geral":
     
     # Top cursos
     st.markdown("---")
-    st.subheader("📚 Top 10 Cursos por IP Médio")
+    st.subheader("Top 10 Cursos por IP Médio")
     
     top_cursos = df.groupby('curso')['IP'].mean().sort_values(ascending=False).reset_index()
     top_cursos.columns = ['curso', 'ip_medio']
